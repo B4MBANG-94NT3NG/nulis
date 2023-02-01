@@ -1,36 +1,10 @@
 {
-  "name": "nulis-online",
-  "version": "1.0.0",
-  "description": "Nulis Online by ZaaDev",
-  "main": "./bin/www",
+  "name": "zaadev-nulis",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www",
-    "zaa": "nodemon ./bin/www",
+    "start": "nodemon ./bin/www"
   },
-  "keywords": [
-    "nulis online",
-    "mager nulis",
-    "bot nulis online",
-    "website nulis online",
-    "bot nulis online github",
-    "zaadev nulis online",
-    "zaadevofc",
-    "zaadev",
-    "nulis buku online",
-    "nulis bot",
-    "nulis"
-  ],
   "author": "ZaaDev",
-  "license": "ISC",
-  "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zaadevofc/nulis-online.git"
-  },
-  "bugs": {
-        "url": "https://github.com/zaadevofc/nulis-online/issues"
-    },
-   "homepage": "https://nulis-zaadev.vercel.app"
   "dependencies": {
     "axios": "^0.26.0",
     "cookie-parser": "^1.4.6",
