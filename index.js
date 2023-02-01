@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser')
 var logger = require('morgan')
 var main = require('./app/main')
 var app = express()
+var { color } = require('./lib/color.js')
 const PORT = process.env.PORT || 8080 || 5000 || 3000
 
 app.set('views', path.join(__dirname, 'views'))
