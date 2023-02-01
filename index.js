@@ -40,8 +40,8 @@ app.use(function (err, req, res, next) {
 
 })
 
-let PORT = 8080
-
-app.listen(PORT, console.log(`\nServer running on  ${PORT}`));
+app.listen(PORT, () => {
+    console.log(color("Server running on port " + PORT,'green'))
+})
 
 module.exports = app
